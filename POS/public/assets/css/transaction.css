@@ -1,0 +1,44 @@
+.card{
+    position: relative;
+    width: 159vh;
+    left: 315px;
+    top: 20px;
+}
+p{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 30px;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 1300px auto auto;
+}
+
+.grid-item a{
+    position: relative;
+    top: 10px;
+}
+
+.site-footer{
+    position: relative;
+    top: 830px;
+    width: 100%;
+}
+.footer-inner{
+    padding: 20px;
+}
+
+.footer-inner .pt{
+    position: relative;
+    left: 328px;
+}
+
+@media(max-width: 1366px){
+    .card{
+        position: relative;
+        width: 164vh;
+        left: 259px;
+        top: 20px;
+    }
+}
+

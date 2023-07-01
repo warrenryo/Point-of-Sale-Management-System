@@ -1,0 +1,32 @@
+.card{
+    position: relative;
+    width: 160vh;
+    left: 315px;
+    top: 20px;
+}
+p{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 30px;
+}
+.site-footer{
+    position: relative;
+    top:520px;
+    width: 100%;
+}
+.footer-inner{
+    padding: 20px;
+}
+
+.footer-inner .pt{
+    position: relative;
+    left: 328px;
+}
+@media(max-width: 1366px){
+    .card{
+        position: relative;
+        width: 160vh;
+        left: 270px;
+        top: 20px;
+    }
+}

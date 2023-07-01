@@ -1,0 +1,146 @@
+
+.side-bar{
+ background: #121212;
+ backdrop-filter: blur(15px);
+ width: 270px; /*290px if not decided */
+ box-shadow: 2px 2px 20px 1px rgba(0, 0, 0, 0.1);
+ height: 100vh;
+ position: fixed;
+ top: 0;
+ /*left: -100%;*/
+ overflow-y: auto;
+ z-index: 2;
+}
+
+.side-bar.active{
+ left: 0;
+}
+
+.side-bar .menu{
+ width: 100%;
+ margin-top: 50px;
+}
+
+.side-bar .menu .item{
+ position: relative;
+ cursor: pointer;
+}
+.side-bar .menu .item.active{
+	background: #0d6efd;
+	position: relative;
+	cursor: pointer;
+   }
+
+   .side-bar .sub-btn.active{
+	background: #0d6efd;
+	position: relative;
+	cursor: pointer;
+   }
+   .side-bar .sub-menu .sub-item.active{
+	background: #0f2647;
+	position: relative;
+	cursor: pointer;
+   }
+   
+
+.side-bar .menu .item a{
+ color: white;
+ font-family: 'Poppins', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+ font-size: 16px;
+ text-decoration: none;
+ display: block;
+ padding: 5px 30px;
+ line-height: 60px;
+}
+
+.side-bar .menu .item a:hover{
+ background: #0d6efd;
+ border-radius: 10px;
+ color: white;
+ transition: 0.3s ease;
+}
+
+.side-bar .menu .item i{
+
+ margin-right: 15px;
+}
+
+.side-bar .menu .item a .dropdown{
+ position: absolute;
+ color: white;
+ right: 0;
+ margin: 20px;
+ transition: 0.3s ease;
+}
+
+
+.side-bar .menu .item .sub-menu{
+ background: #426eaf;
+ display: none;
+}
+.side-bar .menu .item .sub-menu.show{
+    background: #000000;
+    display: block;
+}
+
+.side-bar .menu .item .sub-menu a{
+ padding-left: 40px;
+}
+
+.rotate{
+ transform: rotate(90deg);
+}
+
+.menu-btn{
+ position: absolute;
+ color: black;
+ top: 30px;
+ font-size: 20px;
+ margin: 25px;
+ cursor: pointer;
+ transition: left 0.4s ease;
+}
+/*.menu-btn.click{
+  left:280px;
+}
+.side-bar.show{
+  left:0px;
+}*/
+
+
+.main h1{
+ color: rgba(255, 255, 255, 0.8);
+ font-size: 60px;
+ text-align: center;
+ line-height: 80px;
+}
+
+@media (max-width: 900px){
+ .main h1{
+   font-size: 40px;
+   line-height: 60px;
+ }
+}
+    
+
+::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar
+{
+	width: 5px;
+	background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #d3d3d3;
+  
+}

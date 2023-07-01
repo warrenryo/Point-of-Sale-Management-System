@@ -1,0 +1,67 @@
+p{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 30px;
+}
+.container .card{
+    position: relative;
+    left: 120px;
+    bottom: 70px;
+}   
+
+.ig{
+    width: 300px;
+    clip-path: circle();
+}
+
+.rowItem{
+    display: grid;
+    grid-template-columns: 100px auto auto;
+    position: relative;
+    left: 200px;
+    
+}
+
+.empInfo{
+    position: relative;
+    left: 250px;
+    top: 20px;
+}
+
+.empInfo h1{
+    font-size: 20px;
+}
+
+.title p{
+    position: relative;
+    left: 50px;
+    top: 50px;
+    font-size: 20px;
+}
+
+.title a{
+    position: relative;
+    left: 1120px;
+
+}
+.site-footer{
+    position: relative;
+    top: 350px;
+    width: 100%;
+    margin-top: -100px;
+}
+.footer-inner{
+    padding: 20px;
+}
+
+.footer-inner .pt{
+    position: relative;
+    left: 328px;
+}
+
+.title p{
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+}

@@ -1,0 +1,93 @@
+.qtybutton{
+    display: grid;
+    grid-template-columns: 85px auto auto;
+}
+.site-footer{
+    position: relative;
+    top: 297px;
+    width: 100%;
+    margin-top: -100px;
+}
+.footer-inner{
+    padding: 20px;
+}
+
+.footer-inner .pt{
+    position: relative;
+    left: 100px;
+}
+
+.title p{
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+}
+.product_index{
+    width: 60rem; 
+    position: relative; 
+    left: 20px; 
+    top:20px;
+}
+.counter{
+    width: 37rem; 
+    position: relative; 
+    left: 30px; 
+    top: 20px;
+}
+@media(max-width: 1920px){
+    .counter{
+        width: 40rem; 
+        position: relative; 
+        left: -230px; 
+        top: 20px;
+    }
+    .product_index{
+        width: 72rem; 
+        position: relative; 
+        left: -250px; 
+        top:20px;
+    }
+    .site-footer{
+        position: relative;
+        top: 397px;
+        width: 100%;
+        margin-top: -100px;
+    }
+}
+@media(max-width: 1600px){
+    .counter{
+        width: 31rem; 
+        position: relative; 
+        left: 150px; 
+        top: 20px;
+    }
+    .product_index{
+        width: 50rem; 
+        position: relative; 
+        left: 145px; 
+        top:20px;
+    }
+}
+
+@media(max-width: 1366px){
+    .counter{
+        width: 26.5rem; 
+        position: relative; 
+        left: -70px; 
+        top: 20px;
+    }
+    .product_index{
+        width: 55rem; 
+        position: relative; 
+        left: -80px; 
+        top:20px;
+    }
+    .site-footer{
+        position: relative;
+        top: 150px;
+        width: 100%;
+        margin-top: -100px;
+    }
+    
+}

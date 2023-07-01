@@ -1,0 +1,50 @@
+p{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 30px;
+}
+
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 1100px auto auto;
+    padding-bottom: 20px;
+}
+
+.grid-item a{
+    position: relative;
+    top: 10px;
+}
+
+.site-footer{
+    position: relative;
+    top: 270px;
+    width: 100%;
+    margin-top: -100px;
+}
+.footer-inner{
+    padding: 20px;
+}
+
+.footer-inner .pt{
+    position: relative;
+    left: 328px;
+}
+
+.title p{
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+}
+
+@media(min-width: 1366px){
+    .container{
+        width: 1000px;
+    }
+    .grid-container{
+        display: grid;
+        grid-template-columns: 780px auto auto;
+        padding-bottom: 20px;
+    }
+}
